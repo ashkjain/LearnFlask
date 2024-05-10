@@ -10,23 +10,46 @@
             font-size: 40px;
             font-family: Roboto;
             font-weight: normal;
-            color: rgb(100,100, 100);
+            color: rgb(50,50,50);
             text-align: center;
         }
 
         #banner{
-            
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+        }
+
+        h2{
+            font-family: Roboto;
+            font-size: 32px;
+            color: rgb(100,100,100);
+            text-align: center;
+            font-weight: normal;
+        }
+        .bodytext{
+            font-family: Roboto;
+            color: rgb(80,80,80);
+        }
+        #container{
+            max-width: 720px;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
+    <div id="container">
 <h1>Jains Careers</h1>
-<img id="banner" src="static/banner.jpg" alt="" height="320">
+<img id="banner" src="static/banner.jpg" alt="">
 <h2>About Jains</h2>
-<p>
+<p class="bodytext">
     Jains is a dynamic tech company dedicated to innovation and excellence in the digital realm. Our mission is to leverage cutting-edge technologies to create transformative solutions that empower businesses and individuals alike. At Jains, we specialize in software development, data analytics, cloud computing, and emerging technologies to deliver tailored, scalable, and efficient solutions. With a commitment to quality and customer satisfaction, we strive to exceed expectations and drive meaningful impact in the ever-evolving landscape of technology. Join us on our journey as we shape the future through innovation and technology.</p>
     <h2>Open Positions</h2>
     <p>TODO -  Show the jobs here</p>
-    <button>Contact Us</button>
+    <div style="text-align: center;">
+        <button id="contactbutton">Contact Us</button>
+        <p>Copyright 2024, Jains</p>
+    </div>
+</div>
 </body>
 </html>
